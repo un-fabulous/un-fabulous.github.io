@@ -1,0 +1,143 @@
+#navbarmain {
+  background-color: #219653;  
+}   
+
+
+body {
+    background: url(../image/background.png);
+    font-family: 'Roboto Slab', 'Arial' serif;
+}
+
+.navbar-brand {
+    margin-top: 130px;
+    margin-left: -17px;
+}
+.navbar {
+    height: 58px;
+}
+
+
+.btnS {
+    font-family: 'Acme', serif;
+    background: #FFFFFF;
+    color: #CCCCCC;
+    font-size: 12pt;
+    border-radius: 3px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btnE {
+    padding: 10px;
+    font-family: 'Acme', serif;
+    background: #6FCF97;
+    color: white;
+    font-size: 14pt;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btnR {
+    padding: 10px;
+    font-family: 'Acme', serif;
+    background: #6FCF97;
+    color: white;
+    font-size: 14pt;
+    margin-left: 10px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-linkM {
+    font-family: 'Alef', serif;
+    text-shadow: 0px 3px 3px #3C0E2F;
+    color: white;
+    font-size: 20pt;
+}
+
+.nav-linkH {
+    font-family: 'Alef', serif;
+    text-shadow: 0px 3px 3px #3C0E2F;
+    color: grey;
+    font-size: 20pt;
+    padding-left: 50px;
+}
+
+
+.heading1 {
+    padding-top: 10px;
+    font-family: 'Roboto', serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #373A3C
+}
+
+.containerArcherE {
+    max-width: 1750px;
+    margin-top: 170px;
+    margin-left: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: #9CA07F;
+    border-radius: 14px;
+}
+
+.headtable {
+    border: 2px solid black;
+}
+
+.bodytable {
+    border: 2px solid black;
+}
+
+.headingAE {
+    padding-top: 10px;
+    font-family: 'Acme', serif;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+
+
+
+.registration {
+    background-color: #219653;
+    width: 442px;
+    height: 437px;
+    margin-left: 880px;
+    margin-top: 240px;
+    border-radius: 15px;
+}
+
+.reghed{
+    font-family: 'Abel', serif;
+    text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    color: #373A3C;
+    font-size: 15pt;
+}
+
+.form-first {
+    padding-top: 25px;
+    margin-left: 25px;
+    width: 340px;
+}
+.form-first input{
+    margin-left: 25px;
+    width: 340px;
+}
+.form-other {
+    margin-top: 2px;
+    margin-left: 25px;
+    width: 340px;
+}
+.form-other input {
+    margin-left: 25px;
+    width: 340px;
+}
+.btnReg {
+    background-color: #BDBDBD;
+    margin-left: 130px;
+    margin-top: 5px;
+    font-size: 13pt;
+}
