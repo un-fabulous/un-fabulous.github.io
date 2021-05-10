@@ -11,6 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(78104431, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/78104431" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 </head>
 
 <body>
@@ -40,29 +56,30 @@
             </form>
         </div>
     </nav> 
-    <form class="registration">
+    <form class="registration" id= "registrationForm">
         <div class="form-first">
             <label class="reghed" for="exampleInputName">Логин</label>
             <br />
-            <input type="text" class="form-group" id="exampleInputName" placeholder="Введите логин">
+            <input type="text" class="form-group" id="exampleInputName" name="exampleInputName" placeholder="Введите логин">
         </div>
         <div class="form-other">
             <label class="reghed" for="exampleInputEmail1">Адрес электронной почты</label>
             <br />
-            <input type="email" class="form-group" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите адрес эл. почты">
+            <input type="email" class="form-group" id="exampleInputEmail1" name ="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите адрес эл. почты">
         </div>
         <div class="form-other">
             <label class="reghed" for="exampleInputPassword1">Пароль</label>
             <br />
-            <input type="password" class="form-group" id="exampleInputPassword1" placeholder="Пароль">
+            <input type="password" class="form-group" id="exampleInputPassword1" name ="exampleInputPassword1" placeholder="Пароль">
         </div>
         <div class="form-other">
             <label class="reghed" for="exampleInputPassword2">Пароль</label>
             <br />
-            <input type="password" class="form-group" id="exampleInputPassword2" placeholder="Повторите пароль">
+            <input type="password" class="form-group" id="exampleInputPassword2" name ="exampleInputPassword2" placeholder="Повторите пароль">
         </div>
         <button type="submit" class="btnReg">Зарегистрироваться</button>
     </form>
-</body>
 
+    <script src="../js/site.js"></script>
+</body>
 </html>

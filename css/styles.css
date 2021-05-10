@@ -4,7 +4,8 @@
 
 
 body {
-    background: url(../image/background.png);
+    background: url(../image/background.png) no-repeat;
+    background-size: 107%;
     font-family: 'Roboto Slab', 'Arial' serif;
 }
 
@@ -102,12 +103,16 @@ body {
 
 
 .registration {
-    background-color: #219653;
+   background-color: #219653;
     width: 442px;
     height: 437px;
-    margin-left: 880px;
-    margin-top: 240px;
     border-radius: 15px;
+    margin-left: 90px;
+    margin-top: 15px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .reghed{
